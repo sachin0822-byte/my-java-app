@@ -1,0 +1,73 @@
+ls
+cd
+mvn archetype:generate -DgroupId=com.Samsung.app -DartifactId=my-java-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+clear
+sudo reboot
+ls
+cd my-java-app
+vim pom.xml
+mvn clean install
+ls
+cd target
+cd ..
+cd src/
+ls
+cd main/
+ls
+cd java/com/adojos/
+ls
+cd app/
+ls
+vim App.java
+cd
+cd my-app-java/target/
+cd my-app-java/
+ls
+cd my-java-app
+ls
+cd target/
+cd my-java-app/target
+cd my-java-app/target/
+ls
+cd my-java-app
+cd my-java-app/
+cd main/java/com/adojos/app
+ls
+java -cp my-java-app-1.0-SNAPSHOT.jar com.adojos.app.App
+ls
+cd
+cd my-java-app/
+ls
+cd src/
+ls
+vim main/java/com/adojos/app/App.java
+cd ../target/
+ls
+java -cp my-java-app-1.0-SNAPSHOT.jar com.adojos.app.App
+cd ..
+mvn clean
+ls
+mvn clean install
+cd target/
+java -cp my-java-app-1.0-SNAPSHOT.jar com.adojos.app.App
+mvn clean
+ls
+cd my-java-app
+cd ..
+mvn clean
+git init
+git branch -b Development
+git status
+git add .
+git commit -m "Adojos-5678-added project"
+git status
+git remote add origin git@github.com:sachin0822-byte/My-java-app.git
+git remote -v
+git push origin Development
+git checkout
+git checkout -b Development
+git push origin Development
+git checkout -b main
+git push origin main
+history |cut -c 8-
+[sachin@vbox my-java-app]
